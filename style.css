@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* @layer components { */
+    
+    /* ul li{
+        @apply py-[12px] pl-[50px] pr-[8px] cursor-pointer select-none font-mono font-bold text-[17px]
+    }
+    
+     */
+    
+    
+    /* .btn-primary {
+      @apply py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+    }
+  } */
