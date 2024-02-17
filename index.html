@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/output.css" rel="stylesheet">
+  <!-- <link rel="stylefhgsheet" href="style.css"> -->
   <title>TO</title>
 
     <style>
@@ -29,11 +30,11 @@
       </h1>
 
 
-    <div class="todo-app w-[100%] max-w-[540px] bg-white mt-[100px] mr-auto mb-5 pt-[40px] pl-[30px] pb-[70px] rounded-xl m-auto">
-        <h2 class="text-emerald-950  flex items-center mb-[20px] ">Todo-app List  <img src="images/icon.png" class="w-[30px] ml-[10px]" ></h2>
+    <div class="todo-app w-[100%] max-w-[540px] bg-[#eaa9a9] mt-[100px] mr-auto mb-5 pt-[40px] pl-[30px] pb-[70px] rounded-xl m-auto">
+        <h2 class="text-emerald-950  flex items-center mb-[20px] ">Todo-app List checked <img src="images/icon.png" class="w-[30px] ml-[10px]" ></h2>
         <div class="row flex items-center bg-[#edeef0] rounded-[30px] pl-px-[20px] mb-[25px] ">
             <input type="text" id="input-box" placeholder="Add your text" class="flex-[1] border-none bg-[#e7e1e1dd] p-[16px] font-[14px] rounded-full mr-[n10px]">
-            <button class=" bg-[#f55c0aee] py-[16px] px-[50px] mr-8  rounded-full  border-none  text-rose-50 overflow-hidden" >Add</button>
+            <button onclick="addTask()" class=" bg-[#f55c0aee] py-[16px] px-[50px] mr-8 rounded-full  border-none  text-rose-50 overflow-hidden" >Add</button>
         </div>
 
         
@@ -43,9 +44,9 @@
         
         <ul id="list-container">
             
-            <li >task 1</li>
+            <!-- <li class="checked text-[#555] line-through" >task 1</li>
             <li >task 2</li>
-            <li >task 3</li>
+            <li >task 3</li> -->
             
         </ul>
         
@@ -71,7 +72,7 @@
 
   
 
-
+<script src="script.js"></script>
 
 
 
